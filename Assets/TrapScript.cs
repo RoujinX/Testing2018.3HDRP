@@ -21,6 +21,12 @@ public class TrapScript : MonoBehaviour
 	void OnTriggerEnter(Collider other)
 	{
 		controller.SetTrigger("TriggerTrap");
-		print("Triggered!");
+		controller.SetBool("ResetTrap", false);
+		other.gameObject.GetComponent<Animator>().SetBool("isAlive", false);
+	}
+
+	void OnTriggerExit(Collider other)
+	{
+		controller.SetBool("ResetTrap", true);
 	}
 }
