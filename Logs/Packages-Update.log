@@ -51,3 +51,11 @@ The following packages were updated:
   com.unity.package-manager-ui from version 2.0.2 to 2.0.3
   com.unity.render-pipelines.high-definition from version 4.0.1-preview to 4.1.0-preview
   com.unity.shadergraph from version 4.0.1-preview to 4.1.0-preview
+
+=== Tue Apr 16 22:37:51 2019
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.package-manager-ui from version 2.0.3 to 2.0.7
